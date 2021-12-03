@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+.carousel-caption{
+	
+	color:aliceblue;
+		padding-bottom: 20px;
+		font-family: poppins;
+	}
+	
+	.navbar{
+
+		height: 65px;
+	}
+
+
+.text-center{padding-bottom: 350px; font-size: 50px; font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+
+p7{padding-left: 20px}
+
+p2{font-family: 'Brush Script MT', cursive;}
+
+.two{padding-left: 20px;width:40%; padding-top: 40px}
+
+.foto{width: 350px; height: 500px; padding-left: 10px; padding-top: 50px}
+
+.three{padding-left: 20px; padding-top: 40px}
+
+.four{padding-right: 150px; padding-top: 40px;}
+
+.four1{padding-left: 90px; padding-top: 60px;}
+
+.four2{padding-right: 200px; padding-top: 60px;}
+
+.round{width: 70px; height: 70px; border-radius: 50%;  margin-left:180px;margin-top: 80px}
+
+.round2{width: 70px; height: 70px; border-radius: 50%; margin-left:30px;margin-top: 80px}
+
+.container {
+  position: relative;
+  width: 200px;
+}
+
+
+.image {
+  display: block;
+  width: 250px;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  width: 250px;
+  height: 300px;
+  opacity: 0;
+  transition: .5s ease;
+	
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.box{
+
+	font-size: 17px;
+	letter-spacing: 1px;
+		line-height: 26px;
+	padding-top: 200px;
+	padding-bottom: 303px;
+	background-color: #000000;
+background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.box h1{
+font-size: 75px;
+	line-height: 50px;
+	color: aliceblue;
+	padding-left: 20px;
+	font-family:acme;
+	font-weight: bold;
+	
+}
+
+.box h2{
+font-size: 40px;
+	line-height: 70px;
+	color: aliceblue;
+	padding-left: 21px;
+	font-family:"germania-one";
+	font-weight: bold;
+	
+}
+
+.box p{
+	color: aliceblue;
+		padding-left: 25px
+}
+
+.auto-input{color: #D0FF00;
+font-weight: bold;
+	font-family:"germania-one";
+}
+
+.img-box{
+	position: absolute;
+	width: 540px;
+	right: 8%;
+}
+
+.text {
+  color: white;
+font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.slide-image{	
+width: 360px;
+  height: 300px;
+	margin-left: 550px;
+border-radius: 40px;
+}
+
+.carousel{  
+	width:80%;
+  height:50%;
+ margin-left: auto;
+  margin-right: auto;
+padding-top: 40px;
+padding-bottom: 50px;
+background-color: #C6C6C6;
+border-radius: 40px;}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.text-slide{
+padding-right: 460px;
+padding-bottom: 50px;
+	text-align: left;
+color: #000000
+}
+
+
+
+.progress-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 800px 0 0
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 10px;
+    overflow: visible;
+width: 40%
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    right: 25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+
+
+
+
+
+.foother{ background-image:url("foto/OurOcean.jpg");
+	background-size: cover;  }
+
+.btn{color: #FFFFFF;border-color: aliceblue;}
+
+@media(max-width: 800px) {
+  .two,.three,.four,.four2,.container,.carousel{
+	 display: block;
+    width: 100%;
+  }
+	.four1{padding-left: 0px;	 
+		display: block;
+    width: 100%;}
+.round{width:15%;height:15%;}
+.round2{width:15%;height:15%;}	
+	.container-fluid{background-color:rgba(50,50,50,0.77)}
+	
+}
+
