@@ -1,0 +1,15 @@
+hari,keadaan,suhu,kelembapan,angin,keluar
+D1,cerah,panas,tinggi,kuat,No
+D2,cerah,panas,tinggi,kuat,No
+D3,mendung,panas,tinggi,lemah,Yes
+D4,hujan,sedang,tinggi,lemah,Yes
+D5,hujan,dingin,Normal,lemah,Yes
+D6,hujan,dingin,Normal,kuat,No
+D7,mendung,dingin,Normal,kuat,Yes
+D8,cerah,sedang,tinggi,lemah,No
+D9,cerah,dingin,Normal,lemah,Yes
+D10,hujan,sedang,Normal,lemah,Yes
+D11,cerah,sedang,Normal,kuat,Yes
+D12,mendung,sedang,tinggi,kuat,Yes
+D13,mendung,panas,Normal,lemah,Yes
+D14,hujan,sedang,tinggi,kuat,No
