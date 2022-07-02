@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1016571153850",
+    "firebase_url": "https://newmapfirebase-733c2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "newmapfirebase-733c2",
+    "storage_bucket": "newmapfirebase-733c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016571153850:android:0385579200070913796183",
+        "android_client_info": {
+          "package_name": "com.sento.firebase_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016571153850-qc6t7u6uf8r3p48psra9mtq7a85bh2b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA8aqsQ9mNC49HSdcCOXik6v0nyajaKCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016571153850-qc6t7u6uf8r3p48psra9mtq7a85bh2b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016571153850:android:e2140f0424535af4796183",
+        "android_client_info": {
+          "package_name": "com.sento.map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016571153850-qc6t7u6uf8r3p48psra9mtq7a85bh2b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA8aqsQ9mNC49HSdcCOXik6v0nyajaKCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016571153850-qc6t7u6uf8r3p48psra9mtq7a85bh2b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

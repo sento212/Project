@@ -1,0 +1,121 @@
+.joki img{
+    height: 70px;
+    width: 70px;
+}
+body{
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* home */
+body .home, body .joki{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home h1{
+    font-size: 40px;
+    margin-bottom: 75px;
+}
+.home-card{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    transition: box-shadow .3s;
+}
+.home-card img{
+    width: 70%;
+    height: 70%;
+}
+.home-card h3{
+    font-size: 20px;
+}
+.home-card:hover{
+    box-shadow: 0 3px 10px 5px rgba(97, 97, 97, 0.192);
+}
+/* akhir home */
+
+/* pekjoki */
+.pekjoki-card{
+    display: block;
+    height: 70px;
+    width: 250px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    transition: box-shadow .3s;
+}
+.pekjoki-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 17px;
+}
+.pekjoki-card:hover{
+    box-shadow: 0 3px 10px 5px rgba(97, 97, 97, 0.192);
+}
+h1 .go{
+    font-weight: bold;
+    color: red;
+}
+h1 .pek{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+/* akhir home */
+/* akhir pekjoki */
+
+/* joki tugas */
+.joki-category-card{
+    display: block;
+    background-color: pink;
+    width: 250px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: box-shadow .3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.joki-category-card:hover{
+    box-shadow: 0 3px 10px 5px rgba(97, 97, 97, 0.192);
+}
+.joki h3, .joki label{
+    font-weight: 30px;
+    font-weight: bold;
+    transition: .2s;
+}
+.joki-category-card.metode{
+    margin-top: 50px;
+    width: 350px;
+}
+/* akhir joki tugas */
+
+/* radio button */
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + label{
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px 5px rgba(97, 97, 97, 0.192);
+}
+
+@media only screen and (max-width: 768px) {
+    .home-card{
+        height: 200px;
+        width: 200px;
+    }
+    .home-card img{
+        width: 50%;
+        height: 50%;
+    }
+    .home-card h3{
+        font-size: 24px;
+    }
+}

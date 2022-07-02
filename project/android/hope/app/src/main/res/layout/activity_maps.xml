@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:map="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    tools:context=".MapsActivity"
+    android:clickable="true"
+    />
+<EditText
+    android:id="@+id/latd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Latitude"
+    android:textSize="15pt"/>
+<EditText
+    android:id="@+id/lotd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Longtitude"
+    android:textSize="15pt"/>
+
+<Button
+    android:id="@+id/save12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="save"
+    android:text="save"
+    tools:layout_editor_absoluteX="158dp"
+    tools:layout_editor_absoluteY="412dp" />
+</LinearLayout>

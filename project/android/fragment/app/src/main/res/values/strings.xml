@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">aplikasi berita</string>
+    <string name="Tambah">tambah</string>
+    <string name="judul">judul</string>
+    <string name="isi">isi</string>
+</resources>
